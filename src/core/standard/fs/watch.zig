@@ -244,7 +244,7 @@ const IOCPAttributes = struct {
             handle,
             &self.buf,
             self.buf.len,
-            0,
+            1,
             .{
                 .creation = true,
                 .dir_name = true,
